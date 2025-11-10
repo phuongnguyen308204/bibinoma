@@ -1,0 +1,67 @@
+{
+  "short_name": "Bibinoma",
+  "name": "Bibinoma - Trợ lý AI đồng hành cùng bạn vượt qua khó khăn",
+  "description": "Khám phá trải nghiệm chat thông minh với Bibi và Noma - những người bạn đồng hành đáng tin cậy. Bibi hỗ trợ tâm lý, Noma giúp lập kế hoạch.",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#6366f1",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "lang": "vi",
+  "categories": ["productivity", "lifestyle", "utilities"],
+  "screenshots": [
+    {
+      "src": "images/logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Chat với Bibi",
+      "short_name": "Bibi",
+      "description": "Trò chuyện với Bibi - trợ lý tâm lý",
+      "url": "/chat/heart-to-heart",
+      "icons": [
+        {
+          "src": "images/bibi.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Chat với Noma", 
+      "short_name": "Noma",
+      "description": "Trò chuyện với Noma - trợ lý lập kế hoạch",
+      "url": "/chat/planning",
+      "icons": [
+        {
+          "src": "images/noma.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
